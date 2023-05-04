@@ -1,0 +1,49 @@
+.flex-skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 300px;
+  background-color: rgb(229, 230, 230);
+}
+
+.skill-img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 30px;
+
+}
+
+.single-skill {
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 1px 1px 10px 1px rgb(153, 157, 158);
+  transition: transform .1s;
+
+}
+
+.single-skill:hover {
+  transform: scale(1.10);
+  box-shadow: none;
+}
+
+.skill-name {
+  text-align: center;
+}
+
+@media screen and (max-width:640px){
+  .flex-skill{
+    flex-direction: column;
+  }
+  .grids{
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+}
