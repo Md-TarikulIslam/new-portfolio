@@ -1,15 +1,18 @@
-.bg-color{
+.bg-color {
     background-color: #999d9e;
 }
-.text-size{
-font-size: 240px;
-position: relative;
-bottom: 800px;
+
+.text-size {
+    font-size: 240px;
+    position: relative;
+    bottom: 800px;
 }
-.pro-pic{
-width: 55%;
+
+.pro-pic {
+    width: 55%;
 }
-.loc{
+
+.loc {
     background-color: black;
     padding: 10px 30px;
     font-size: 20px;
@@ -20,59 +23,70 @@ width: 55%;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
 }
-.earth{
+
+.earth {
     width: 6%;
     position: relative;
     bottom: 705px;
     left: 190px;
 }
-.icon{
+
+.icon {
     position: relative;
     bottom: 900px;
     left: 1200px;
     font-size: 40px;
     color: white;
 }
-.web{
+
+.web {
     color: white;
     font-size: 50px;
     position: relative;
     bottom: 840px;
     left: 1200px;
 }
+
 @media screen and (max-width:640px) {
-    .text-size{
+    .text-size {
         bottom: 395px;
         font-size: 80px;
         z-index: 10;
     }
-    .pro-pic{
+
+    .pro-pic {
         width: 600px;
     }
-    .icon{
+.zz{
+    z-index: 1;
+}
+    .icon {
         bottom: 200px;
         left: 10px;
         font-size: 25px;
-    
+
     }
-    .web{
+
+    .web {
         bottom: 195px;
         left: 10px;
         width: 50px;
         font-size: 30px;
         line-height: 30px;
     }
-    .loc{
+
+    .loc {
         font-size: 10px;
         padding: 8px;
         width: 120px;
         bottom: 350px;
-       
+
     }
-    .earth{
+
+    .earth {
         bottom: 400px;
         left: 70px;
         width: 10%;
     }
-    
+
 }

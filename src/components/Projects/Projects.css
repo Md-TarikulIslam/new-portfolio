@@ -1,0 +1,75 @@
+.project {
+    position: relative;
+    bottom: 100px;
+    background-repeat: no-repeat;
+
+}
+
+.badge-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.pro-icon {
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+.badge-style {
+    /* width: 100px; */
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(229, 230, 230);
+}
+
+.all-card {
+    margin-top: 100px;
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.single-card {
+    height: 500px;
+}
+
+.single-card:hover {
+    box-shadow: 1px 1px 30px 0px rgb(241, 84, 18);
+}
+
+.pro-tech-grid {
+    padding: 20px;
+    background-color: rgb(229, 230, 230);
+    border-radius: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pro-tech-logo {
+    width: 50px;
+    gap: 10px;
+    /* height: 50px; */
+    background-color: #fef4f5;
+    border-radius: 25%;
+}
+
+@media screen and (max-width:640px) {
+    .all-card {
+        padding: 0 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

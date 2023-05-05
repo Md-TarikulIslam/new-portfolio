@@ -7,7 +7,7 @@ import { HiArrowDownRight } from "react-icons/hi2";
 
 const Hero = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div id="hero" className="overflow-x-hidden">
       <div className="bg-color">
         <img className=" pro-pic mx-auto" src={proPic2} alt="" />
       </div>
@@ -18,7 +18,7 @@ const Hero = () => {
    <p className="web"> Web Developer</p>
 </div>
       <marquee
-        className="text-size font-extrabold text-white"
+        className="text-size zz font-extrabold text-white"
         behavior="alternate"
         scrollamount="15"
         direction="left"

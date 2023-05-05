@@ -1,0 +1,54 @@
+.foo {
+    background-color: rgb(229, 230, 230);
+    padding: 90px 120px;
+}
+
+.name {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.s-icons {
+    margin-top: 20px;
+    padding: 0 550px;
+    display: flex;
+    gap: 20px;
+}
+
+.f-ico {
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 35%;
+    background-color: #fef4f5;
+    transition: transform .1s;
+}
+
+.f-ico:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px 1px #fef4f5;
+}
+
+.copy-flex {
+    margin-top: 40px;
+    padding: 0 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width:640px) {
+    .foo {
+        padding: 50px 10px;
+    }
+
+    .s-icons {
+        padding: 0 13px;
+    }
+
+    .copy-flex {
+        padding: 0 100px;
+    }
+}

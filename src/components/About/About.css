@@ -1,50 +1,112 @@
-.about-position{
+.about-position {
     position: relative;
     bottom: 550px;
 }
-.about{
-    font-size: 35px;
-    width: 200px;
+
+.about-flex {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    height: 200px;
-    color: black;
-    background-color: rgb(153, 157, 158);
-    position: relative;
-    left: 1150px;
+    margin-top: 100px;
+}
+
+.img-responsive {
+    width: 90%;
+    border-radius: 5%;
+}
+
+.card-flex {
+    display: flex;
 
 }
-.tech{
-    width: 1200px;
+
+.about-card {
+    border: 1px solid rgb(229, 230, 230);
+    margin-right: 20px;
     padding: 20px;
+    border-radius: 10%;
+    margin-bottom: 40px;
+    width: 160px;
+    
 }
-.design{
-    width: 500px;
-    padding: 20px;
+.about-card:hover{
+    color: #F15412;
 }
+
+.about-icon {
+    margin-left: 40px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.exp {
+    font-size: 20px;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
+}
+
+.all-text{
+    text-align: justify;
+}
+
+.cv-btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(229, 230, 230);
+    box-shadow: 1px 1px 20px 0px rgb(240, 92, 30);
+}
+.j{
+   margin: 0 auto; 
+}
+.cv-btn:hover {
+    color: white;
+    background-color: rgb(240, 92, 30);
+    box-shadow: none;
+}
+.cvi{
+    position: relative;
+    right: 30px;
+}
+
+
 @media screen and (max-width:640px) {
-    .about-position{
+    .about-position {
         bottom: 200px;
         padding: 0;
     }
-    .about-p{
+    .about-flex{
         flex-direction: column;
-        padding: 0;
     }
-    .tech{
-        width: 360px;
-        font-size: 30px;
+    .img-responsive{
+        margin: 0px auto 20px auto;
     }
-    .design{
-        width: 360px;
-    }
-    .about{
-        left: 250px;
-        width: 100px;
-        height: 100px;
-        font-size: 20px;
-    }
+.card-flex{
+    width: 200px;
+    flex-direction: column;
 }
-
+.about-card{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: -25px;
+    border-radius: 20px;
+}
+.about-icon{
+    font-size: 50px;
+    margin-left: 130px;
+}
+.all-text{
+    width: 300px;
+    margin-bottom: 200px;
+}
+.cv-btn{
+    position: relative;
+    bottom: 150px;
+}
+}

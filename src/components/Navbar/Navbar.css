@@ -1,7 +1,12 @@
 .nav{
     z-index: 2;
 }
+.nav-logo{
+    width: 200px;
+}
 
 @media screen and (max-width:640px){
-  
+  .nav-logo{
+    width: 150px;
+  }
 }

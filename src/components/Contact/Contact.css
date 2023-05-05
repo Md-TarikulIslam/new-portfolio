@@ -1,0 +1,78 @@
+.address {
+    display: flex;
+    padding: 0 530px;
+    margin-bottom: 50px;
+    gap: 20px;
+
+}
+
+.gmail,
+.phone {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.c-img {
+    width: 40px;
+    height: 30px;
+
+}
+
+.c-img2 {
+    width: 60px;
+    height: 60px;
+}
+
+.c-flex {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(229, 230, 230);
+    width: 300px;
+    height: 80px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 700px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.area {
+    border: 1px solid rgb(210, 212, 215);
+}
+
+.textar {
+    border: 1px solid rgb(210, 212, 215);
+}
+
+.submit-btn {
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(229, 230, 230);
+    box-shadow: 1px 1px 20px 0px rgb(240, 92, 30);
+}
+
+.submit-btn:hover {
+    color: white;
+    background-color: rgb(240, 92, 30);
+    box-shadow: none;
+}
+
+@media screen and (max-width:640px) {
+    .address {
+        padding: 0 45px;
+        flex-direction: column;
+    }
+
+
+    .form-grid {
+        margin: 0 auto;
+        width: 300px;
+    }
+}
