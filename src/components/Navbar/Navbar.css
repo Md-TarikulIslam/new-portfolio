@@ -4,6 +4,12 @@
 .nav-logo{
     width: 200px;
 }
+.drop{
+  left: 180px;
+}
+.drop-2{
+  left: 0px;
+}
 
 @media screen and (max-width:640px){
   .nav-logo{

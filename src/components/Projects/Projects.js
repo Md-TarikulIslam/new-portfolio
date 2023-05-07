@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id="projects" className="project pt-20">
       <div className="text-center">
-        <h2 className="text-5xl my-3">My Creative Projects</h2>
+        <h2 className="text-5xl my-3 leading-normal">My Creative Projects</h2>
         <h5 className="text-xl mb-5">My Recent Works</h5>
       </div>
       {/* card section  */}

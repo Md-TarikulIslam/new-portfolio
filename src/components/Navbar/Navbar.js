@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn btn-ghost float-left  drop  relative left-48 lg:hidden"
+              className="btn btn-ghost float-left  drop  relative lg:hidden"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu  menu-compact drop-2 dropdown-content mt-16 p-2 shadow relative -right-48 bg-base-100 rounded-box w-56"
+              className="menu  menu-compact drop-2 dropdown-content mt-16 p-2 shadow relative  bg-base-100 rounded-box w-56"
             >
               <li>
                 <a href="#hero">Home</a>

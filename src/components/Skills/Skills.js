@@ -6,7 +6,7 @@ const Skills = () => {
   return (
   <div id="skills" className="skill-section">
     <div className="text-center">
-      <h2 className="text-5xl my-3">Skills & Experience</h2>
+      <h2 className="text-5xl my-3 leading-normal">Skills & Experience</h2>
       <h5 className="text-xl mb-5">My Technical Experience</h5>
     </div>
       <div className="flex-skill">
