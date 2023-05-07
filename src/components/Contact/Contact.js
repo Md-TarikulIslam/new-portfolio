@@ -24,8 +24,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
-      alert('Success')
+    e.target.reset();
+    alert("Success");
   };
   return (
     <div id="contact" className="pt-20">
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
         <div className="c-flex">
           <img className="c-img2" src={icon} alt="" />
-          <p className="phone">+8801739-426293</p>
+          <p className="phone">+880 1739-426 293</p>
         </div>
       </div>
 
@@ -56,6 +56,7 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder="Your Name"
+            required
           />
           <input
             className="input  input-bordered"
@@ -63,6 +64,7 @@ const Contact = () => {
             name="email"
             id=""
             placeholder="Your Email"
+            required
           />
           <textarea
             className="textarea  textar"
@@ -71,6 +73,7 @@ const Contact = () => {
             cols="30"
             rows="5"
             placeholder="Your Message"
+            required
           ></textarea>
           <button className="submit-btn" value="Send" type="submit">
             Send Message

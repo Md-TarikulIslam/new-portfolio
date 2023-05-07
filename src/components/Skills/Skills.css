@@ -1,9 +1,10 @@
-.skill-section{
+.skill-section {
   position: relative;
   bottom: 300px;
   background-color: rgb(229, 230, 230);
   padding: 100px 0;
 }
+
 .flex-skill {
   display: flex;
   justify-content: space-around;
@@ -17,9 +18,11 @@
   padding-top: 13px;
   transition: transform .1s;
 }
-.skill-img:hover{
+
+.skill-img:hover {
   transform: scale(1.05);
 }
+
 .grids {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -36,7 +39,7 @@
   height: 65px;
   transition: transform .1s;
   margin: auto;
-  
+
 
 
 }
@@ -49,38 +52,59 @@
 
 .skill-name {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 8px;
   margin-bottom: 100px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.612);
 }
 
-.junior{
+.junior {
   font-size: 40px;
   font-weight: 600;
 }
-.suffix{
+
+.suffix {
   font-size: 30px;
   color: #F15412;
 }
-.date{
+
+.date {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:640px) {
+  .flex-skill {
+    flex-direction: column;
+  }
+
+  .grids {
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+  }
+
+  .skill-name {
+    margin-bottom: 20px;
+  }
+
+  .ex {
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (min-width:641px) and (max-width:1024px) {
+  .grids{
+    grid-template-columns: repeat(6,1fr);
+  }
   .flex-skill{
     flex-direction: column;
   }
-  .grids{
-    grid-template-columns: repeat(4,1fr);
-    width: 300px;
-  }
-  .skill-name{
-    margin-bottom: 20px;
-  }
-  .ex{
-margin-left:40px;
-  }
+}
 
-  
+
+@media screen and (min-width:1025px) and (max-width:1670px) {
+
+  .flex-skill{
+    flex-direction: column;
+  }
 }

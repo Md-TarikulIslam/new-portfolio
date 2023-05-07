@@ -6,7 +6,7 @@ import quiz from "../../image/pro_img/5quiz.png";
 import keep from "../../image/pro_img/6keep.png";
 import shop from "../../image/pro_img/7shop.png";
 import newspaper from "../../image/pro_img/8news.png";
-import car from "../../image/pro_img/9service.png";
+import car from "../../image/pro_img/a.png";
 import player from "../../image/pro_img/10player.png";
 import fitness from "../../image/pro_img/11fitness.png";
 

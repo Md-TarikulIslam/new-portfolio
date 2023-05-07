@@ -76,3 +76,18 @@
         width: 300px;
     }
 }
+
+
+@media screen and (min-width:641px) and (max-width:1024px) {
+  .address{
+    padding: 0 120px;
+  }
+
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1670px) {
+  .address{
+    padding: 0 330px;
+  }
+}

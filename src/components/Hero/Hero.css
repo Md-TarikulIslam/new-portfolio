@@ -57,9 +57,11 @@
     .pro-pic {
         width: 600px;
     }
-.zz{
-    z-index: 1;
-}
+
+    .zz {
+        z-index: 1;
+    }
+
     .icon {
         bottom: 200px;
         left: 10px;
@@ -89,4 +91,62 @@
         width: 10%;
     }
 
+}
+
+
+@media screen and (min-width:641px) and (max-width:1024px) {
+    .text-size {
+        font-size: 120px;
+        bottom: 600px;
+    }
+
+    .loc {
+        bottom: 400px;
+    }
+
+    .earth {
+        bottom: 500px;
+        width: 11%;
+    }
+
+    .icon {
+
+        bottom: 330px;
+        left: 30px;
+    }
+
+    .web {
+
+        bottom: 330px;
+        left: 50px;
+
+    }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1670px) {
+    .text-size {
+        font-size: 150px;
+        bottom: 600px;
+    }
+
+    .loc {
+        bottom: 500px;
+    }
+
+    .earth {
+        width: 8%;
+        bottom: 605px;
+        left: 190px;
+    }
+
+    .web {
+        bottom: 650px;
+        left: 850px;
+    }
+
+    .icon {
+        bottom: 660px;
+        left: 830px;
+    }
 }

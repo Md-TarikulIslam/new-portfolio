@@ -16,11 +16,11 @@ const Projects = () => {
           {ProjectsData.map((project) => {
             return (
               <div>
-                <div className="card single-card p-5 glass">
+                <div className="card single-card ">
                   <figure>
-                    <img src={project.img} alt="car!" />
+                    <img className="pro-img object-cover" src={project.img} alt="car!" />
                   </figure>
-                  <div className="card-body">
+                  <div className="card-body p-3">
                     <h2 className="card-title">{project.name}</h2>
                     <p>{project.title}</p>
                     <div className="icons">
