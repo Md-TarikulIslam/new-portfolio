@@ -7,7 +7,7 @@ import { HiArrowDownRight } from "react-icons/hi2";
 const Hero = () => {
   return (
     <div id="hero" className="overflow-x-hidden">
-      <div className="bg-color">
+      <div className="bg-color pt-14">
         <img className=" pro-pic mx-auto" src={proPic2} alt="" />
       </div>
       <div>

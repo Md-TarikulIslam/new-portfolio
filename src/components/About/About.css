@@ -26,9 +26,10 @@
     border-radius: 10%;
     margin-bottom: 40px;
     width: 160px;
-    
+
 }
-.about-card:hover{
+
+.about-card:hover {
     color: #F15412;
 }
 
@@ -48,7 +49,7 @@
     text-align: center;
 }
 
-.all-text{
+.all-text {
     text-align: justify;
 }
 
@@ -62,15 +63,18 @@
     background-color: rgb(229, 230, 230);
     box-shadow: 1px 1px 20px 0px rgb(240, 92, 30);
 }
-.j{
-   margin: 0 auto; 
+
+.j {
+    margin: 0 auto;
 }
+
 .cv-btn:hover {
     color: white;
     background-color: rgb(240, 92, 30);
     box-shadow: none;
 }
-.cvi{
+
+.cvi {
     position: relative;
     right: 30px;
 }
@@ -79,63 +83,74 @@
 @media screen and (max-width:640px) {
     .about-position {
         bottom: 200px;
-        padding: 0;
+        padding: 90px 0 0 0;
     }
-    .about-flex{
+
+    .about-flex {
         flex-direction: column;
     }
-    .img-responsive{
+
+    .img-responsive {
         margin: 0px auto 20px auto;
     }
-.card-flex{
-    width: 200px;
-    flex-direction: column;
-}
-.about-card{
-    width: 350px;
-    margin-top: 20px;
-    margin-left: -25px;
-    border-radius: 20px;
-}
-.about-icon{
-    font-size: 50px;
-    margin-left: 130px;
-}
-.all-text{
-    width: 300px;
-    margin-bottom: 200px;
-}
-.cv-btn{
-    position: relative;
-    bottom: 150px;
-}
+
+    .card-flex {
+        width: 200px;
+        flex-direction: column;
+    }
+
+    .about-card {
+        width: 350px;
+        margin-top: 20px;
+        margin-left: -25px;
+        border-radius: 20px;
+    }
+
+    .about-icon {
+        font-size: 50px;
+        margin-left: 130px;
+    }
+
+    .all-text {
+        width: 300px;
+        margin-bottom: 200px;
+    }
+
+    .cv-btn {
+        position: relative;
+        bottom: 150px;
+    }
 }
 
 
 @media screen and (min-width:641px) and (max-width:1024px) {
-  .about-flex{
-    flex-direction: column;
-  }
-  .img-responsive{
- 
-    margin: 0 auto 50px auto;
-    width: 100%;
-  }
-  .card-flex{
-    margin-left: 20px;
-  }
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .img-responsive {
+
+        margin: 0 auto 50px auto;
+        width: 100%;
+    }
+
+    .card-flex {
+        margin-left: 20px;
+    }
 }
 
 
 @media screen and (min-width:1025px) and (max-width:1670px) {
-  .about-flex{
-    flex-direction: column;
-  }
-  .img-responsive{
-    width: 100%;
-    margin-bottom:50px ;
-  }
-  .card-flex{
-  margin-left: 250px;
-  }
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .card-flex {
+        margin-left: 250px;
+    }
 }

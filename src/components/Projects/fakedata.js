@@ -9,6 +9,7 @@ import newspaper from "../../image/pro_img/8news.png";
 import car from "../../image/pro_img/a.png";
 import player from "../../image/pro_img/10player.png";
 import fitness from "../../image/pro_img/11fitness.png";
+import nilmrc from "../../image/pro_img/12nilmrc.png";
 
 const html =
   "https://cdn.sanity.io/images/x16wfpn4/production/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.png";
@@ -35,6 +36,19 @@ const firebase =
 const ProjectsData = [
   {
     id: 1,
+    img: nilmrc,
+    name: "National Institute of Laboratory Medicine & Referral Centre",
+    title:
+      "This is a Government project. There are many landing pages and many official information is there.",
+    ti: html,
+    ti2: css,
+    ti3: tail,
+    ti4: react,
+    live: "https://genius-car-8fe25.web.app",
+    github: "https://github.com/Md-TarikulIslam/genius-car-client",
+  },
+  {
+    id: 1,
     img: car,
     name: "Car Service",
     title:
@@ -43,7 +57,7 @@ const ProjectsData = [
     ti2: react,
     ti3: express,
     ti4: mongo,
-    live: "https://nimble-sopapillas-d4f0eb.netlify.app/",
+    live: "https://genius-car-8fe25.web.app",
     github: "https://github.com/Md-TarikulIslam/genius-car-client",
   },
   {
@@ -53,7 +67,7 @@ const ProjectsData = [
     ti: rb,
     ti2: css,
     ti3: react,
-    title:'Suffix IT Limited is a IT service company with various program.',
+    title: "Suffix IT Limited is a IT service company with various program.",
 
     live: "https://suffix-it.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/suffix_it",
@@ -62,7 +76,7 @@ const ProjectsData = [
     id: 3,
     img: tori,
     name: "Tori Limited",
-    title:'Tori Limited is a IT service company with various program',
+    title: "Tori Limited is a IT service company with various program",
     ti: tail,
     ti2: css,
     ti3: react,
@@ -77,7 +91,7 @@ const ProjectsData = [
     ti2: css,
     ti3: react,
     ti4: firebase,
-    title:'Newspaper is a website with authentication and daily news.',
+    title: "Newspaper is a website with authentication and daily news.",
     live: "https://newspaper-e362f.web.app/",
     github: "https://github.com/Md-TarikulIslam/newspaper-client",
   },
@@ -89,7 +103,7 @@ const ProjectsData = [
     ti2: css,
     ti3: react,
     ti4: firebase,
-    title:'This is a web site where you can select products and give order',
+    title: "This is a web site where you can select products and give order",
 
     live: "https://tarikul-shop.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/shopping-with-authentication",
@@ -102,7 +116,8 @@ const ProjectsData = [
     ti2: bs,
     ti3: css,
     ti4: js,
-    title:'Select best 5 players for your upcoming match and also count their expenses.',
+    title:
+      "Select best 5 players for your upcoming match and also count their expenses.",
 
     live: "https://five-players.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/Select-Players",
@@ -114,7 +129,7 @@ const ProjectsData = [
     ti: html,
     ti2: css,
     ti3: react,
-    title:'Quiz app with timer functionality',
+    title: "Quiz app with timer functionality",
 
     live: "https://quiz-tarikul.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/quiz-app",
@@ -126,7 +141,7 @@ const ProjectsData = [
     ti: html,
     ti2: css,
     ti3: js,
-title:"Keep app is for keep your daily notes.",
+    title: "Keep app is for keep your daily notes.",
     live: "https://tarikul-keep.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/keep",
   },
@@ -138,7 +153,7 @@ title:"Keep app is for keep your daily notes.",
     ti2: css,
     ti3: js,
 
-    title:"You can count your exercise daily for good health.",
+    title: "You can count your exercise daily for good health.",
 
     live: "https://preeminent-entremet-49bfe8.netlify.app/",
     github: "https://github.com/Md-TarikulIslam/Fitness-Freak",
@@ -150,7 +165,7 @@ title:"Keep app is for keep your daily notes.",
     ti: html,
     ti2: css,
 
-    title:"Responsive landing page design",
+    title: "Responsive landing page design",
 
     live: "https://md-tarikulislam.github.io/pro1/",
     github: "https://github.com/Md-TarikulIslam/pro1",
@@ -161,7 +176,7 @@ title:"Keep app is for keep your daily notes.",
     name: "Landing Page",
     ti: html,
     ti2: css,
-    title:"Responsive landing page design",
+    title: "Responsive landing page design",
     live: "https://md-tarikulislam.github.io/pro2/",
     github: "https://github.com/Md-TarikulIslam/pro2",
   },
